@@ -1,0 +1,58 @@
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+#container {
+    border: 1px solid black;
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.opciones {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    border: 1px solid blue;
+    margin: 80px auto;
+}
+
+.form {
+    width: 100px;
+}
+
+.label:nth-child(n+1) {
+    margin-left: 30px;
+}
+
+.p {
+    margin-left: 110px;
+}
